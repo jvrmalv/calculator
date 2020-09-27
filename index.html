@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" name="form">
+            <input id="textbox" class="textview" disabled>
+        </form>
+        <div class="button-column">
+            <div class="button-row">
+                <input type="button" onclick="erase()" value="C">
+                <input type="button" onclick="number(this)" value="&lt;">
+                <input type="button" onclick="operator1(this)" value=" / ">
+                <input type="button" onclick="operator1(this)" value=" * ">
+                <input type="button" onclick="operator1(this)" value=" ^ ">
+            </div>
+            <div class="button-row">
+                <input type="button" onclick="number(this)" value="7">
+                <input type="button" onclick="number(this)" value="8">
+                <input type="button" onclick="number(this)" value=" 9">
+                <input type="button" onclick="operator1(this)" value=" + ">
+            </div>
+            <div class="button-row">
+                <input type="button" onclick="number(this)" value="4">
+                <input type="button" onclick="number(this)" value="5">
+                <input type="button" onclick="number(this)" value="6">
+                <input type="button" onclick="operator1(this)" value=" - ">
+            </div>
+            <div class="button-row">
+                <input type="button" onclick="number(this)" value="0">
+                <input type="button" onclick="number(this)" value="1">
+                <input type="button" onclick="number(this)" value="2">
+                <input type="button" onclick="number(this)" value="3">
+                <input type="button" onclick="equal()"" value="=">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
